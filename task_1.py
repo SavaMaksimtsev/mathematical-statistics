@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[38]:
-
-
 # Импортировал библиотеки: pandas — для обработки данных, matplotlib — для визуализации
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -21,4 +15,3 @@ plt.xlabel('Авиакомпания')
 plt.ylabel('Вероятность положительной задержки прилёта')
 plt.title('Распределение вероятности положительной задержки по авиакомпаниям', fontsize=12)
 plt.show()
-
